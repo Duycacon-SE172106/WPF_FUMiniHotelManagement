@@ -1,0 +1,15 @@
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\Duy\PRN212\1_PRN212\FUMiniHotelManagement\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
