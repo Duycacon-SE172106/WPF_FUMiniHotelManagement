@@ -1,18 +1,7 @@
 ﻿using BusinessObjects.Models;
 using Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace FUMiniHotelManagement
 {
@@ -85,7 +74,7 @@ namespace FUMiniHotelManagement
                 }
                 int numberOfDays = (endDate - startDate).Days;
                 decimal actualPrice = decimal.Parse(txtActualPrice.Text);
-                decimal totalPrice = (numberOfDays+1) * actualPrice;
+                decimal totalPrice = (numberOfDays + 1) * actualPrice;
                 txtTotalPrice.Text = totalPrice.ToString();
             }
         }
@@ -106,7 +95,7 @@ namespace FUMiniHotelManagement
                 BookingDate = bookingDate,
                 TotalPrice = totalPrice,
                 BookingStatus = 1,
-            BookingDetails = new List<BookingDetail>
+                BookingDetails = new List<BookingDetail>
                 {
                     new BookingDetail
                     {
@@ -138,7 +127,7 @@ namespace FUMiniHotelManagement
         private void cmbRoomNumber_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             var room = _bookingInformationRepositories.GetRoomInformationByRoomNumber(cmbRoomNumber.SelectedValue.ToString());
-            if(room.RoomStatus == 1)
+            if (room.RoomStatus == 1)
             {
                 txtActualPrice.Text = room.RoomPricePerDay.ToString();
             }

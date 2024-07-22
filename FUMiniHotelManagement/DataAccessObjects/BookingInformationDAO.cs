@@ -81,5 +81,28 @@ namespace DataAccessObjects
             context.RoomInformations.Update(roomInformation);
             context.SaveChanges();
         }
+
+        public void UpdateExpiredReservations()
+        {
+            using var context = new FuminiHotelManagementContext();
+            var expiredReservations = context.BookingDetails
+                .Where(bd => bd.EndDate < DateOnly.FromDateTime(DateTime.Now))
+                .ToList();
+
+            foreach (var detail in expiredReservations)
+            {
+                var room = context.RoomInformations.Find(detail.RoomId);
+                if (room != null)
+                {
+                    room.RoomStatus = 1;
+                }
+                //var reser = context.BookingDetails.Find(detail.BookingReservationId);
+                //if(reser != null)
+                //{
+                //    reser.BookingReservation.BookingStatus = 0;
+                //}
+            }
+            context.SaveChanges();
+        }
     }
 }

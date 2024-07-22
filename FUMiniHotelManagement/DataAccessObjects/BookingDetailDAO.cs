@@ -38,7 +38,8 @@ namespace DataAccessObjects
         public BookingDetail GetBookingDetailById(int id)
         {
             using var context = new FuminiHotelManagementContext();
-            return context.BookingDetails.FirstOrDefault(bd => bd.RoomId == id);
+            return context.BookingDetails.Include(bd => bd.Room)
+                .FirstOrDefault(bd => bd.BookingReservationId == id);
         }
 
         public void UpdateBookingDetail(BookingDetail bookingDetail)

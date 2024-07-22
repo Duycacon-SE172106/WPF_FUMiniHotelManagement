@@ -26,5 +26,7 @@ namespace DataAccessObjects
         public List<RoomInformation> GetAvailableRoom();
         //ko nen sai float
         public List<RoomInformation> GetRoomPricePerDay(int pricePerDay);
+
+        public void UpdateExpiredReservations();
     }
 }

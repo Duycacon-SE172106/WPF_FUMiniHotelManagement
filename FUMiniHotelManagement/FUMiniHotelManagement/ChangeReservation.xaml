@@ -41,10 +41,10 @@
 
             <Label Content="Search:" Grid.Row="0" Grid.Column="0" Margin="5"/>
             <TextBox x:Name="txtSearch" Grid.Row="0" Grid.Column="1" Margin="5,5,90,5"/>
-            <Button Content="Search" Grid.Row="0" Grid.Column="1" Margin="265,5,10,5" Width="75" Click="SearchButton_Click"/>
+            <Button Content="Search" Grid.Row="0" Grid.Column="1" Margin="265,5,5,5" Click="SearchButton_Click"/>
 
             <Label Content="Room Number:" Grid.Row="1" Grid.Column="0" Margin="5"/>
-            <ComboBox x:Name="cmbRoomNumber" Grid.Row="1" Grid.Column="1" Margin="5" SelectionChanged="cmbRoomNumber_SelectionChanged" IsEnabled="False"/>
+            <ComboBox x:Name="cmbRoomNumber" Grid.Row="1" Grid.Column="1" Margin="5" SelectionChanged="cmbRoomNumber_SelectionChanged"/>
 
             <Label Content="Customer Name:" Grid.Row="2" Grid.Column="0" Margin="5"/>
             <TextBox x:Name="txtCustomerId" Grid.Row="2" Grid.Column="1" Margin="5" IsEnabled="False"/>
@@ -65,10 +65,10 @@
             <TextBox x:Name="txtTotalPrice" Grid.Row="7" Grid.Column="1" Margin="5" IsEnabled="False"/>
 
             <StackPanel Orientation="Horizontal" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left" Margin="5">
-                <Button x:Name="UpdateButton" Content="Update" Width="75" Margin="5" Click="UpdateButton_Click" Background="#FF0099FF" IsEnabled="False"/>
-                <Button x:Name="SaveButton" Content="Save" Width="75" Margin="5" Click="SaveButton_Click" Background="#FF0099FF" IsEnabled="False"/>
-                <Button x:Name="DeleteButton" Content="Delete" Width="75" Margin="5" Click="DeleteButton_Click" Background="#FFEF8F18" IsEnabled="False"/>
-                <Button x:Name="CancelButton" Content="Cancel" Width="75" Margin="5" Click="CancelButton_Click" Background="#FFEF8F18" IsEnabled="False"/>
+                <Button x:Name="btnUpdate" Content="Update" Width="75" Margin="5" Click="UpdateButton_Click" Background="#FF0099FF" IsEnabled="False"/>
+                <Button x:Name="btnSave" Content="Save" Width="75" Margin="5" Click="SaveButton_Click" Background="#FF0099FF" IsEnabled="False"/>
+                <Button x:Name="btnDelete" Content="Delete" Width="75" Margin="5" Click="DeleteButton_Click" Background="#FFEF8F18" IsEnabled="False"/>
+                <Button x:Name="btnCancel" Content="Cancel" Width="75" Margin="5" Click="CancelButton_Click" Background="#FFEF8F18" IsEnabled="False"/>
             </StackPanel>
         </Grid>
     </Grid>

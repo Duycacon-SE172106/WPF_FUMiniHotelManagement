@@ -55,10 +55,10 @@
             <DatePicker x:Name="txtEndDate" Grid.Row="4" Grid.Column="1" Margin="5,5,208,5" SelectedDateChanged="txtEndDate_SelectedDateChanged"/>
 
             <Label Content="Actual Price:" Grid.Row="5" Grid.Column="0" Margin="5"/>
-            <TextBox x:Name="txtActualPrice" Grid.Row="5" Grid.Column="1" Margin="5"/>
+            <TextBox x:Name="txtActualPrice" Grid.Row="5" Grid.Column="1" Margin="5" IsEnabled="False"/>
 
             <Label Content="Total Price:" Grid.Row="6" Grid.Column="0" Margin="5"/>
-            <TextBox x:Name="txtTotalPrice" Grid.Row="6" Grid.Column="1" Margin="5"/>
+            <TextBox x:Name="txtTotalPrice" Grid.Row="6" Grid.Column="1" Margin="5" IsEnabled="False"/>
 
             <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" Margin="5">
                 <Button x:Name="CreateButton" Content="Create" Width="100" Margin="5" Click="CreateButton_Click" Background="#FF0099FF"/>

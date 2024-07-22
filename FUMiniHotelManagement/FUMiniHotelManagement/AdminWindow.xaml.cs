@@ -23,6 +23,7 @@ namespace FUMiniHotelManagement
             _bookingReservationRepositories = new BookingReservationRepositories();
             _customersRepositories = new CustomerRepository();
             _roomTypeRepositories = new RoomTypeRepositories();
+            _bookingInformationRepositories.UpdateExpiredReservations();
         }
 
         private string curTextBlock;

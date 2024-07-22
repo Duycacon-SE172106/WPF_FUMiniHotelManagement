@@ -26,5 +26,7 @@ namespace Repositories
         public List<RoomInformation> GetAvailableRoom();
 
         public List<RoomInformation> GetRoomPricePerDay(int pricePerDay);
+
+        public void UpdateExpiredReservations();
     }
 }

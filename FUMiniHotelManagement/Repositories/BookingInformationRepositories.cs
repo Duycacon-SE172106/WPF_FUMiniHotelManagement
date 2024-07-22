@@ -57,6 +57,11 @@ namespace Repositories
             return _bookingInformationDAO.GetRoomPricePerDay(pricePerDay);
         }
 
+        public void UpdateExpiredReservations()
+        {
+            _bookingInformationDAO.UpdateExpiredReservations();
+        }
+
         public void UpdateRoomInformation(RoomInformation roomInformation)
         {
             _bookingInformationDAO.UpdateRoomInformation(roomInformation);
